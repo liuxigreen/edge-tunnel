@@ -1,8 +1,10 @@
-name = "v20251104"
+name = "jolly-tree-d54f"
 main = "_worker.js"
-compatibility_date = "2025-11-04"
-keep_vars = true
+compatibility_date = "2024-01-01"
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+kv_namespaces = [
+  { binding = "KV", id = "2fd9c858b2b44724a5c34fbdc66b6550" }
+]
+
+[vars]
+ADMIN = "edge2026"
